@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.wxkly.androidcharts.BarView
+        android:id="@+id/bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        app:bar_x_text_color="@color/black_233745"
+        app:bar_y_text_color="@color/black_233745"
+        app:bar_background_line_color="@color/black_233745"
+        app:bar_x_text_space="15"
+        app:bar_x_text_size="15"
+        app:bar_y_text_size="15"
+        app:bar_color="@color/color_1067C7"
+        app:bar_width="25"
+        app:bar_pop_textcolor="@color/black_233745"
+        app:bar_show_pop_text="true"
+        />
+
+    <Button
+        android:id="@+id/bar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Random" />
+</RelativeLayout>
