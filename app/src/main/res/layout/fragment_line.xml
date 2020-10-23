@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <com.wxkly.androidcharts.LineView
+        android:id="@+id/line_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        app:x_text_color="@color/color_red_e40046"
+        app:y_text_color="@color/color_a5095e1"
+        app:background_line_color="@color/black_233745"
+        app:x_text_space="30"
+        app:show_popup_type="1"
+        app:x_text_size="18"
+        app:y_text_size="18"
+        />
+
+    <Button
+        android:id="@+id/line_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Random" />
+</RelativeLayout>
