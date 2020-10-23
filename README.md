@@ -1,7 +1,7 @@
 # AndroidLightCharts
 A light-weight android charts library include Line Chart, Bar Chart and Pie Chart. BaseOn:
 
-[AndroidCharts]: https://github.com/HackPlan/AndroidCharts
+[AndroidCharts]: https://github.com/HackPlan/AndroidCharts	"AndroidCharts"
 
 Screenshots:
 
